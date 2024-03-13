@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: another-petstore-api-location
+  description: DUP - A collection of all the catalog entities in the 'Petstore' API
+spec:
+  targets:
+    - ./dup-petstore-api.yaml
